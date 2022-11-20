@@ -3,4 +3,4 @@
 cpu_sent=$(mpstat 2 1 | awk 'END{print 100-$NF"%"}')
 cpu_clean=${cpu_sent%,*}
 
-echo "[ 💻 ${cpu_clean}% ]"
+echo "CPU: [ ${cpu_clean} ]"

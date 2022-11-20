@@ -10,4 +10,4 @@ if [ -z "$wifi_sent" ]; then
 	wifi_clean="No WiFi"
 fi
 
-echo "[ ᯤ  $wifi_clean ]"
+echo "WIF: [ $wifi_clean ]"

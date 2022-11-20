@@ -8,4 +8,4 @@ battery_status=${battery_arr[2]:0:1}
 battery_h=${battery_time%:*}
 battery_m=${battery_time#*:}
 
-echo "[ 🗲  ${battery_perc}% (${battery_status} ${battery_h}h ${battery_m}m) ]"
+echo "BAT: [ ${battery_perc}% (${battery_status} ${battery_h}h ${battery_m}m) ]"
