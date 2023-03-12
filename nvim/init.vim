@@ -82,6 +82,7 @@ let g:vimtex_compiler_latexmk_engines = {
     \ '_'                : '-xelatex',
     \}
 
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'mhinz/vim-startify', {'branch': 'center'}
 
 let g:startify_padding_left = 35
